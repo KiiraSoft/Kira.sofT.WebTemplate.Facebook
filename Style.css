@@ -1,0 +1,190 @@
+body
+{
+background:#333;
+overflow:
+}
+
+/* sets up the appearance of the header */
+.header
+{
+float:left;
+position:absolute;
+top:0px;
+left:0px;
+height:64px;
+width:100%;
+background:#ffffff url("Banner.svg");
+opacity:0.9;
+background-size: 100% 64px;
+border-bottom-style:solid;
+border-color:#222;
+z-index:100
+}
+
+/* Sets up the header content */
+.headerContent
+{
+float:left;
+position:absolute;
+height:32px;
+top:0px;
+left:20%;
+right:20%
+}
+
+/* Modifies the logo inside of the header */
+.logo
+{
+float:left;
+position:relative;
+
+top:16px;
+width:32px;
+height:32px;
+background: url("kira.svg");
+background-size: 100% 100%;
+opacity:2
+}
+
+/* Sets up the notification button on the header */
+.notifications
+{
+float:right;
+position:relative;
+margin-right:8px;
+top:16px;
+width:32px;
+height:32px;
+background: url("Notifications.svg");
+background-size: 100% 100%;
+opacity:2
+}
+
+/* Sets up the profile button on the header */
+.profile
+{
+float:right;
+position:relative;
+margin-right:8px;
+top:16px;
+width:32px;
+height:32px;
+background: url("profileTab.svg");
+background-size: 100% 100%;
+opacity:2
+}
+
+/* changes how the profile name is displayed */
+.profileName
+{
+float:right;
+position:relative;
+margin-right:8px;
+top:24px;
+text-align:left;
+font-size:14;
+}
+
+/* Sets up the search bar placeholder, in which the search bar will stretch inside of by 100% */
+.searchbarPlaceholder
+{
+float:left;
+position:relative;
+
+top:16px;
+height:32px;
+width:55%;
+background:#fff;
+border-style:solid;
+border-width:0.75px;
+border-color:#f33;
+border-radius:8px;
+margin-left:16px;
+}
+
+/* Sets up the search bar for the page */
+.searchbar
+{
+float:left;
+position:relative;
+width:100%;
+height:100%;
+border-radius:8px;
+}
+
+/* Sets up the webite content Div */
+.content
+{
+float:left;
+position:absolute;
+top:64px;
+bottom:24px;
+left:256px;
+right:96px;
+background:#ffffff;
+border-bottom-right-radius:16px;
+border-style:solid;
+border-top-style:none;
+border-color:#ff3333
+}
+
+/* Sets up the user panel Div */
+.userPanel
+{
+float:left;
+position:absolute;
+top:64px;
+bottom:24px;
+left:96px;
+width:160px;
+background:#aaa;
+border-bottom-left-radius:16px;
+border-style:solid;
+border-top-style:none;
+border-color:#ffaaaa
+}
+
+/* positions the user's pic inside of the user panel */
+.profilePic128x128
+{
+float:left;
+position:relative;
+width:128px;
+height:128px;
+left:16px;
+top:64px;
+background: url("profileTab.svg");
+background-size: 100% 100%;
+}
+
+/* sets up the footer of the website */
+.footer
+{
+float:left;
+position:absolute;
+right:0px;
+bottom:0px;
+width:100%;
+height:16px;
+}
+
+/* sets up the chat section of the website */
+.chat
+{
+float:left;
+position:absolute;
+right:0px;
+bottom:0px;
+height:24px;
+width:224px;
+border-top-left-radius:8px;
+border-top-right-radius:8px;
+text-align:center;
+font-size:16px;
+color:#fff;
+background:#f33;
+border-style:solid;
+border-width:1px;
+border-color:#fff;
+border-bottom-style:none;
+}
